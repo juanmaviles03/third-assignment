@@ -2,7 +2,7 @@ async function searchPokemon() {
   
   const input = document.getElementById("pokemon-input").value.toLowerCase().trim();
   const resultDiv = document.getElementById("result");
-  resultDiv.innerHTML = ""; // Clear previous result
+  resultDiv.innerHTML = ""; // Clear previous result use ID from 1 to 20
 
   if (!input) {
     resultDiv.innerHTML = "<p class='error'>Please enter a Pokemon name or ID.</p>";
